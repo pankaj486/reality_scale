@@ -1,0 +1,40 @@
+
+.left-footer-icon {
+    width: 135px;
+    height: 56px;
+    background: rgba(42, 42, 42, 0.43);
+    border-radius: 200px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    filter: contrast(180%) brightness(103%);
+}
+
+.auto-sec-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.magic-sec {
+    width: 52px;
+    height: 52px;
+    background: rgba(255, 213, 0, 0.91);
+    border-radius: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+}
+.left-auto-sec {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+p.toggle-ic {
+    margin-left: 35px;
+}
+p.toggle-ic-right {
+    margin-right: 18px;
+}

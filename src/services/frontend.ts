@@ -1,0 +1,26 @@
+import React from "react";
+
+export const fetchComponentMenu = () => {
+
+  const componentMenu = [
+    {
+      id: 'bed',
+      name: 'Bed',
+      image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAYAAADXYyzPAAAABHNCSVQICAgIfAhkiAAAAbJJREFUSEvtlj1Ow0AQhVmJggIJSsogUVAgEW6Q9EhQ0uGcgOQEhBMknAAfAAlyAnwDQgUdiURBgUQKCgok8z0zixbLSRMbKDLSk707s/Nm/57tlrA0Tdd59ECkdkV2Td5z51yi/M6IuzzbRjypiFgcE4gPQ2JVkdApZyXGqjZIfANHNlk/4wVx6cu9WOr/dbhMUHYLNvqO21B4z20P09yYMfEj04rZ14kEEhKp2DSLSdbyTuIj3i9mxePrgPrUeywRkRNI2lTAD4OkS8cpaOGPadd4fwQDEOVXA79U6gqc+dzfAmLLeo/jHYzANtgAb+AjYF7mfdX6h4HPx2u8EJq+AcqjeI3VrPcgHzqIYxr74BI826gaTyFvKkzImwpV/ErOoXyKV0HyHYEU4k0R60BkS1eQsNQuW91XkjY9cdN/rkplKkhmE/1bYu1Bnxn3f2G2Oly3INtjEZ4AXQsp2RPYAQ92KOapZ4vBL8DfCB1AiVDdS6YqUQFyaAV8ex5SjdU9XgNjy92GVL9AXz8CMhOHAwvolHHKA4FJxIU1PF9I7KVS+qqZl2KmE8ckG/j/LSX+BH1D7uunPwfBAAAAAElFTkSuQmCC'
+    },
+    {
+      id: 'sofa',
+      name: 'Sofa',
+      image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAASCAYAAACq26WdAAAABHNCSVQICAgIfAhkiAAAAQJJREFUOE/lVW0NwkAMpQ7AARJwwHCABHAwHNwUgAMmARRsEuYAcICD471LuwwSsh89CAmXNNf00vfWz8lET4xxDXUPuZnNec/hfxSRynCECoj4cIIUeLw7SXp34BLzAMyWRiMrlCjkItIgnnC/S4ZQF8wtZArZWsjeCF9wK+DWAmMHYDYHa9XCSHL30XqxLFfipjLBSALmlo3S6142YEXgWplIFv6IzJu+gf/yt9KIL2syRRdGI2PXZCJrRslsDLyE71q/s0H+8JyVnDNu5otukA3u2huV+rMcVpIVM2YTXuKBa4pCPcdho+0Mk7+u4dZPyxjGWQ4mZIy7lhk7AzNF+ABpu9c1zTcxtgAAAABJRU5ErkJggg=='
+    },
+    {
+      id: 'lamp',
+      name: 'Lamp',
+      image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAABHNCSVQICAgIfAhkiAAAAipJREFUOE+VlEsoBlEYho1bSHIpFhRCYmVDFiwssEBRLGywIQuSy4INC7eQUu6WNmzcSgorl8QCCyvkmh1Jci/9nu/PaIzzz4xTb+fM9z3nnXO+mXM0L0VzuVx3hCNUue9Yq6Zpfaq8Zg5iFkbsjAnhngxhnshFwTybGZVhHVAycL2F4QS5Q5hJJ4a7QA3AexaGWeR6YbItDdlKAsAqYKJF/dwp2Cu6bNhrI/try0DtJH2AOhwYdsM8w/ZYGZ6QLAA6dWCYAjMHm6o0ZHXpJEYBMuzM9Dxz9hlXM+dAj/1smeQQwQt0hsqAKu2MmdMEEw3brDK8JSjbmELTQIsODCNhjmCjfhnypnwCjagY3QME2ZkZtr3GeIA56xJzbxnDaToJ+KNMktX/MJTS5DCnymj4yYMf2kGy1SO0BfRoZ8xifGDeYX3dhgTK6YtQBZLi6n9/PZB8JNuGxwzQEvysGEoNFtCmaWYozw8KN2Pcm3wwSkMlGOaJoRx0OZvGJrWNQ6oVxhO/RC4kZZJnORDbqO7PbSOu3+dUbpw38wrJBRA7JhfLOJbxBmN5ubupri+pY4jVecaoE+YezTsxXAYaw3DFvDr9GcNCxjWoH0ntg/TdqFa4BDCi/6gqUwxzpV6oCw2jUvgbT1tuI/EBMGixwhZyfjC9mAfSv1rVMJCknE+PlywmcqkmwbybX+rpK4vZOJIvam7nBGqNqzICSkMBWEUMXZzC8MV4/5nzX3w+4RoBOMUjAAAAAElFTkSuQmCC'
+    },
+
+  ]
+
+  return componentMenu;
+
+}

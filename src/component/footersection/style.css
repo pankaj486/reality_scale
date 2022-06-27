@@ -1,0 +1,131 @@
+.App {
+    font-family: sans-serif;
+    /* padding: 10px 0px; */
+  }
+  
+    .App > div {
+        background-color: rgba(42, 42, 42, 0.36);
+        color: #fff;
+        color: #3498db;
+        text-align: center;
+        width: 660px;
+        border-radius: 32px;
+        padding: 0px 0;
+    }
+    /* .slick-slide.slick-active.slick-cloned {
+        width: 130px !important;
+    } */
+    .App button.slick-arrow.slick-prev {
+        display: block;
+        position: absolute;
+        left: -1px;
+        top: 50%;
+        transform: translate(-0%, -50%);
+        z-index: 999999;
+        background: rgb(0 0 0 / 2%);
+        width: 60px;
+        height: 53px;
+        border-radius: 30px 0 0 30px;
+    }
+    .App button.slick-arrow.slick-next {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translate(-0%, -50%);
+        background: rgb(0 0 0 / 2%);
+        width: 60px;
+        height: 53px;
+        border-radius: 0px 30px 30px 0px;
+    }
+    .App button.slick-arrow.slick-prev:hover {
+        background: rgb(190 167 52);
+    }
+    .App button.slick-arrow.slick-next:hover {
+        background: rgb(190 167 52);
+    }
+    .slick-prev:before, .slick-next:before {
+        opacity: unset !important;
+    }
+    .App .slick-slide h3 {
+        color: rgb(255 255 255 / 90%) !important;
+        font-size: 15px;
+        margin: 0;
+        font-weight: 400;
+    }    
+    .App .slick-prev:before {
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAARCAYAAADkIz3lAAAABHNCSVQICAgIfAhkiAAAAJZJREFUKFON0oENQDAQBVA3ASbBCCZhBCMYgRFMgg06ig3qn1RD/ULSRNzrxf1Wkshjrc1QarBWETHCnEMzaiXWBpg/YIC0zwjY3SBBE1Cr2sM35OEXOuAfdEKDl8JN7/8pTEM7bviYukKlmbHIFGpWi8O6qWb4mPoPvsbz2jkMPIrZEVIcuxQ3TC/FGc1lwAGwpx1ZjjvGFlUSMTivgwAAAABJRU5ErkJggg==);
+    }
+    .App .slick-next:before {
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAARCAYAAADkIz3lAAAABHNCSVQICAgIfAhkiAAAAJlJREFUKFON0oERQDAMBdBmAkYwAiOYBBvYxApMgg2MYoP63+GCtPQu18O7RJOK9z51zlWIWUQW7OYSwBZfOsSKKEOYMANgpiSGhXWAc2xTDO/wD77gF77BGH7BAC5CkL0dETwkV2OVfqIBva2fhzERU+r2BNEFj3nrf9rL6aFzhNFMJ9aXgu9emTTM8MBL0aMcb5K5zD5acgMmgFWMm4G4sAAAAABJRU5ErkJggg==);
+    }
+    .active-sliderbar {
+        background: #e4c846 !important;
+        color: black !important;
+        padding: 17px 32px;
+        border-radius: 200px;
+        width: auto !important;
+    }
+    .App .active-sliderbar h3 {
+        color: #000000 !important;
+    }
+    .sliderbar_menu h3:hover {
+        background: rgba(42, 42, 42, 0.43) !important;
+        color: #ffffff !important;
+        padding: 17px 32px;
+        border-radius: 200px;
+        width: auto !important;
+        margin: 0 10px;
+    }
+    /* .App .slick-slide.slick-active.slick-center.slick-current {
+        width: auto !important;
+    } */
+    .App .slick-track {
+        display: flex;
+        align-items: center;
+    }
+    .App .slick-slide h3.active-sliderbar {
+        color: rgb(0 0 0) !important;
+        margin: 0 10px;
+    }
+
+    @media screen and (max-width: 991px) {
+        .App button.slick-arrow.slick-prev {
+            background-color: rgb(0 0 0 / 79%);
+        }
+        .App button.slick-arrow.slick-next {
+            background-color: rgb(0 0 0 / 79%);
+        } 
+        .App button.slick-arrow.slick-next:hover {
+            background: rgb(0 0 0 / 79%);
+        }
+        .App button.slick-arrow.slick-prev:hover {
+            background: rgb(0 0 0 / 79%);
+        }
+    }
+
+
+    @media screen and (max-width: 767px) {
+        .App button.slick-arrow.slick-prev {
+            background-color: rgb(0 0 0 );
+        }
+        .App button.slick-arrow.slick-next {
+            background-color: rgb(0 0 0 );
+        }
+        .active-sliderbar {
+            padding: 0 !important;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .App button.slick-arrow.slick-next:hover {
+            background: rgb(0 0 0 / 79%);
+        }
+        .App button.slick-arrow.slick-prev:hover {
+            background: rgb(0 0 0 / 79%);
+        }
+    }
+
+    
+    
